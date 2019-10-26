@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Signup">
+
+    <ImageView
+        android:id="@+id/imageLine"
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        app:srcCompat="@drawable/imgline" />
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="123dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/imageLine"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="1dp"
+        app:srcCompat="@drawable/sign_up" />
+
+    <ImageView
+        android:id="@+id/imageUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageLogo"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="50dp"
+        app:srcCompat="@drawable/tv_username" />
+
+    <ImageView
+        android:id="@+id/imageViewUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageUserName"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/path_three" />
+
+    <EditText
+        android:id="@+id/editUserName"
+        android:layout_width="175dp"
+        android:layout_height="26dp"
+        android:layout_below="@+id/imageUserName"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="34dp"
+        android:ems="10"
+        android:inputType="text" />
+
+    <ImageView
+        android:id="@+id/imageMobileNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewUserName"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/mobile_number" />
+
+    <ImageView
+        android:id="@+id/imageViewEditNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageMobileNumber"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/path_three" />
+
+    <EditText
+        android:id="@+id/editMobile"
+        android:layout_width="175dp"
+        android:layout_height="26dp"
+        android:layout_below="@+id/imageMobileNumber"
+        android:layout_marginLeft="107dp"
+        android:layout_marginTop="37dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <ImageView
+        android:id="@+id/imagePassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewEditNumber"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/password_words" />
+
+    <ImageView
+        android:id="@+id/imageViewEditPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagePassword"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/path_three" />
+
+    <EditText
+        android:id="@+id/editPass"
+        android:layout_width="175dp"
+        android:layout_height="26dp"
+        android:layout_below="@+id/imagePassword"
+        android:layout_marginLeft="111dp"
+        android:layout_marginTop="37dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <ImageView
+        android:id="@+id/imageViewSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewEditPass"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="21dp"
+        app:srcCompat="@drawable/path_one" />
+
+    <ImageView
+        android:id="@+id/imageSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewEditPass"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/sign_up" />
+
+    <ImageView
+        android:id="@+id/imageViewMember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewSignUp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="9dp"
+        app:srcCompat="@drawable/member_words" />
+
+    <ImageView
+        android:id="@+id/imageViewLogin"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewMember"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="9dp"
+        app:srcCompat="@drawable/login_words" />
+
+
+</RelativeLayout>

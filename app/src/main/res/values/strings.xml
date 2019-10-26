@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">USSD App</string>
+    <!--Send Money Activity strings here-->
+    <string name="send_money">Send Money</string>
+</resources>

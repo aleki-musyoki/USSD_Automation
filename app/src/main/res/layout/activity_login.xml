@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        app:srcCompat="@drawable/imgline" />
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="131dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="17dp"
+        app:srcCompat="@drawable/login_words" />
+
+    <ImageView
+        android:id="@+id/imagePhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewLogo"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="50dp"
+        app:srcCompat="@drawable/phone_words" />
+
+    <ImageView
+        android:id="@+id/imageViewEditPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagePhone"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/path_one" />
+
+    <EditText
+        android:id="@+id/editPhone"
+        android:layout_width="175dp"
+        android:layout_height="26dp"
+        android:layout_below="@+id/imagePhone"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="55dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <ImageView
+        android:id="@+id/imagePass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewEditPhone"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="50dp"
+        app:srcCompat="@drawable/password_words" />
+
+    <ImageView
+        android:id="@+id/imageEditPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagePass"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/path_one" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="175dp"
+        android:layout_height="26dp"
+        android:layout_below="@+id/imagePass"
+        android:layout_marginLeft="107dp"
+        android:layout_marginTop="54dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <ImageView
+        android:id="@+id/image_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageEditPass"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="12dp"
+        app:srcCompat="@drawable/path_one" />
+
+    <ImageView
+        android:id="@+id/img_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editPassword"
+        android:layout_marginTop="37dp"
+        android:layout_marginLeft="150dp"
+        app:srcCompat="@drawable/login_words" />
+
+    <ImageView
+        android:id="@+id/imageViewMember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageEditPass"
+        android:layout_marginTop="120dp"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/member_words" />
+
+    <ImageView
+        android:id="@+id/imageSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageEditPass"
+        android:layout_marginTop="150dp"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/sign_up" />
+
+</RelativeLayout>
