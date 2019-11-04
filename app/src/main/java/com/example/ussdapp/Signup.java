@@ -62,7 +62,7 @@ public class Signup extends AppCompatActivity {
         edt_name = findViewById(R.id.editUserName);
         edt_phone = findViewById(R.id.editMobile);
         edt_password = findViewById(R.id.editPass);
-        img_signup = findViewById(R.id.imageViewSignUp);
+        img_signup = findViewById(R.id.imageSignUp);
         img_login = findViewById(R.id.imageViewLogin);
     }
 

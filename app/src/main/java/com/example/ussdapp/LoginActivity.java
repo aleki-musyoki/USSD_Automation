@@ -24,7 +24,6 @@ public class LoginActivity extends AppCompatActivity {
     private ImageView img_sign_up, imgLogin;
     private ProgressDialog progressDialog;
     private String parentDbName = "Users";
-    private int counter = 5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -116,5 +115,7 @@ public class LoginActivity extends AppCompatActivity {
         edit_password = findViewById(R.id.editPassword);
         imgLogin = findViewById(R.id.img_login);
         img_sign_up = findViewById(R.id.imageSignUp);
+
+
     }
 }

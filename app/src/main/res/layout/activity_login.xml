@@ -10,16 +10,16 @@
     <ImageView
         android:id="@+id/imageView1"
         android:layout_width="match_parent"
-        android:layout_height="114dp"
+        android:layout_height="114sp"
         app:srcCompat="@drawable/imgline" />
 
     <ImageView
         android:id="@+id/imageViewLogo"
-        android:layout_width="131dp"
-        android:layout_height="60dp"
+        android:layout_width="131sp"
+        android:layout_height="60sp"
         android:layout_below="@+id/imageView1"
         android:layout_centerInParent="true"
-        android:layout_marginTop="17dp"
+        android:layout_marginTop="17sp"
         app:srcCompat="@drawable/login_words" />
 
     <ImageView
@@ -27,26 +27,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageViewLogo"
-        android:layout_marginTop="25dp"
-        android:layout_marginLeft="50dp"
+        android:layout_marginTop="25sp"
+        android:layout_marginLeft="50sp"
         app:srcCompat="@drawable/phone_words" />
 
-    <ImageView
-        android:id="@+id/imageViewEditPhone"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imagePhone"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="10dp"
-        app:srcCompat="@drawable/path_one" />
 
     <EditText
         android:id="@+id/editPhone"
-        android:layout_width="175dp"
-        android:layout_height="26dp"
+        android:layout_width="175sp"
+        android:layout_height="26sp"
         android:layout_below="@+id/imagePhone"
-        android:layout_marginLeft="105dp"
-        android:layout_marginTop="55dp"
+        android:layout_marginLeft="105sp"
+        android:layout_marginTop="50sp"
         android:ems="10"
         android:inputType="number" />
 
@@ -54,54 +46,38 @@
         android:id="@+id/imagePass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/imageViewEditPhone"
-        android:layout_marginTop="15dp"
-        android:layout_marginLeft="50dp"
+        android:layout_below="@+id/editPhone"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="50sp"
         app:srcCompat="@drawable/password_words" />
-
-    <ImageView
-        android:id="@+id/imageEditPass"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imagePass"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="10dp"
-        app:srcCompat="@drawable/path_one" />
 
     <EditText
         android:id="@+id/editPassword"
-        android:layout_width="175dp"
-        android:layout_height="26dp"
+        android:layout_width="175sp"
+        android:layout_height="26sp"
         android:layout_below="@+id/imagePass"
-        android:layout_marginLeft="107dp"
-        android:layout_marginTop="54dp"
+        android:layout_marginLeft="107sp"
+        android:layout_marginTop="50sp"
         android:ems="10"
         android:inputType="textPassword" />
 
-    <ImageView
-        android:id="@+id/image_login"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imageEditPass"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="12dp"
-        app:srcCompat="@drawable/path_one" />
+
 
     <ImageView
         android:id="@+id/img_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/editPassword"
-        android:layout_marginTop="37dp"
-        android:layout_marginLeft="150dp"
+        android:layout_marginTop="37sp"
+        android:layout_marginLeft="150sp"
         app:srcCompat="@drawable/login_words" />
 
     <ImageView
         android:id="@+id/imageViewMember"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/imageEditPass"
-        android:layout_marginTop="120dp"
+        android:layout_below="@+id/img_login"
+        android:layout_marginTop="28sp"
         android:layout_centerInParent="true"
         app:srcCompat="@drawable/member_words" />
 
@@ -109,9 +85,10 @@
         android:id="@+id/imageSignUp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/imageEditPass"
-        android:layout_marginTop="150dp"
+        android:layout_below="@+id/imageViewMember"
+        android:layout_marginTop="9sp"
         android:layout_centerInParent="true"
         app:srcCompat="@drawable/sign_up" />
+
 
 </RelativeLayout>
