@@ -35,12 +35,21 @@
     <EditText
         android:id="@+id/editPhone"
         android:layout_width="175sp"
-        android:layout_height="26sp"
+        android:layout_height="40sp"
         android:layout_below="@+id/imagePhone"
         android:layout_marginLeft="105sp"
         android:layout_marginTop="50sp"
         android:ems="10"
         android:inputType="number" />
+
+    <ImageView
+        android:id="@+id/imgEditPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagePhone"
+        android:layout_marginTop="19sp"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/path_one" />
 
     <ImageView
         android:id="@+id/imagePass"
@@ -54,13 +63,21 @@
     <EditText
         android:id="@+id/editPassword"
         android:layout_width="175sp"
-        android:layout_height="26sp"
+        android:layout_height="40sp"
         android:layout_below="@+id/imagePass"
-        android:layout_marginLeft="107sp"
-        android:layout_marginTop="50sp"
+        android:layout_marginLeft="103sp"
+        android:layout_marginTop="53sp"
         android:ems="10"
         android:inputType="textPassword" />
 
+    <ImageView
+        android:id="@+id/imgEditPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagePass"
+        android:layout_marginTop="20sp"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/path_one" />
 
 
     <ImageView
@@ -68,7 +85,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/editPassword"
-        android:layout_marginTop="37sp"
+        android:layout_marginTop="23sp"
         android:layout_marginLeft="150sp"
         app:srcCompat="@drawable/login_words" />
 
@@ -83,10 +100,10 @@
 
     <ImageView
         android:id="@+id/imageSignUp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imageViewMember"
-        android:layout_marginTop="9sp"
+        android:layout_width="90sp"
+        android:layout_height="70sp"
+        android:layout_below="@+id/img_login"
+        android:layout_marginTop="47sp"
         android:layout_centerInParent="true"
         app:srcCompat="@drawable/sign_up" />
 
